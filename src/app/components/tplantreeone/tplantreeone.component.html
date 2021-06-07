@@ -1,0 +1,52 @@
+<mat-list>
+  <mat-list-item>Item 1</mat-list-item>
+  <mat-divider></mat-divider>
+  <mat-list-item>Item 2</mat-list-item>
+  <mat-divider></mat-divider>
+  <mat-list-item>Item 3 4 and 5</mat-list-item>
+</mat-list>
+
+<mat-divider></mat-divider>
+<mat-divider inset vertical></mat-divider>
+
+<mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+<mat-icon> 3d_rotation </mat-icon>
+<mat-icon>delete_outline</mat-icon>
+
+<mat-chip-list aria-label="Fish selection">
+  <mat-chip>One fish</mat-chip>
+  <mat-chip>Two fish</mat-chip>
+  <mat-chip color="primary" selected>Primary fish</mat-chip>
+  <mat-chip color="accent" selected>Accent fish</mat-chip>
+</mat-chip-list>
+<mat-checkbox> Subscribe </mat-checkbox>
+
+<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+  <mat-tree-node
+    *matTreeNodeDef="let node"
+    matTreeNodeToggle
+    matTreeNodePadding
+  >
+    <button mat-icon-button disabled></button>
+    <mat-icon class="type-icon" [attr.aria-label]="node.type + 'icon'">
+      {{ node.type === "file" ? "description" : "folder" }}
+    </mat-icon>
+    {{ node.name }}
+  </mat-tree-node>
+
+  <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding>
+    <button
+      mat-icon-button
+      matTreeNodeToggle
+      [attr.aria-label]="'Toggle ' + node.name"
+    >
+      <mat-icon class="mat-icon-rtl-mirror">
+        {{ treeControl.isExpanded(node) ? "expand_more" : "chevron_right" }}
+      </mat-icon>
+    </button>
+    <mat-icon class="type-icon" [attr.aria-label]="node.type + 'icon'">
+      {{ node.type === "file" ? "description" : "folder" }}
+    </mat-icon>
+    {{ node.name }}
+  </mat-tree-node>
+</mat-tree>

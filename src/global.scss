@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Font Awesome 5 Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url("src/assets/fonts/fa-light-300.woff2");
+}
+
+* {
+  --color-theme-primary: #567fe6;
+  --color-theme-secondary: #fc0212;
+
+  --color-positive: #567fe6;
+  --color-positive-80: #7798eb;
+  --color-positive-60: #99b2f0;
+  --color-positive-40: #bbccf5;
+  --color-positive-20: #dde5fa;
+
+  --color-negative: #d00c0c;
+  --color-negative-80: #d83c3c;
+  --color-negative-60: #e36d6d;
+
+  --color-neutral: #333333;
+  --color-neutral-80: #5b5b5b;
+  --color-neutral-60: #848484;
+  --color-neutral-40: #adadad;
+  --color-neutral-20: #d6d6d6;
+
+  --color-info: #85888e;
+
+  --color-text: #333333;
+  --color-text-90: #333333e6;
+}
+
+.fal {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+}

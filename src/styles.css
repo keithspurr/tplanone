@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./global.scss";
+html,
+body {
+  height: 100%;
+  background: #807d7d;
+}
+body {
+  margin: 0;
+  font-family: "Font Awesome 5 Pro";
+  color: #e29090;
+}
