@@ -1,10 +1,45 @@
+.tree-container {
+  display: flex;
+  flex-direction: column !important;
+  max-width: 600px;
+  background: #7ae4e4 !important;
+  margin: 0 auto;
+}
+.tc1 {
+  flex-basis: 50%;
+}
+.tc3 {
+  flex-basis: 10%;
+}
+.tc3 {
+  flex-basis: 40%;
+}
+
+.mat-list {
+  flex: 1;
+}
+
+.mat-icon {
+  flex: 1;
+}
+
+.mat-chip-list {
+  justify-content: center;
+  background-color: #758888 !important;
+}
+.mat-chip:nth-child(4) {
+  margin-left: 5px;
+}
+.mat-divider {
+}
 .mat-checkbox {
   background: #000000;
 }
 
 .mat-tree {
-  margin: 0 auto;
-  width: 50%;
+}
+
+.mat-tree .mat-tree-node {
 }
 
 .type-icon {

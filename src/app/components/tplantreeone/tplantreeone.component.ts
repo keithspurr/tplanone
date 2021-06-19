@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { files } from './example-data';
@@ -24,7 +24,8 @@ export interface FlatTreeNode {
 @Component({
   selector: 'app-tplantreeone',
   templateUrl: './tplantreeone.component.html',
-  styleUrls: ['./tplantreeone.component.css']
+  styleUrls: ['./tplantreeone.component.css'],
+  //encapsulation: ViewEncapsulation.None
 })
 export class TplantreeoneComponent {
 
