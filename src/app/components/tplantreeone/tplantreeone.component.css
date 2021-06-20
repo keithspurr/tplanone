@@ -1,9 +1,13 @@
 .tree-container {
   display: flex;
   flex-direction: column !important;
-  max-width: 600px;
+  max-width: 300px;
+  max-height: 886px;
   background: #7ae4e4 !important;
   margin: 0 auto;
+  border: solid 10px #bdc3c7;
+  border-radius: 4px;
+  padding: 10px;
 }
 .tc1 {
   flex-basis: 50%;
@@ -31,15 +35,18 @@
   margin-left: 5px;
 }
 .mat-divider {
+  background: #bbb9b9;
 }
 .mat-checkbox {
   background: #000000;
 }
 
 .mat-tree {
+  background: #bbb9b9;
 }
 
 .mat-tree .mat-tree-node {
+  background: #bbb9b9;
 }
 
 .type-icon {
