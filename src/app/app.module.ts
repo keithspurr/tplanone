@@ -6,12 +6,14 @@ import { TplantreeoneComponent } from './components/tplantreeone/tplantreeone.co
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { BorderOuterComponent } from './components/border/border-outer/border-outer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TplantreeoneComponent
+    TplantreeoneComponent,
+    BorderOuterComponent
   ],
   imports: [
     BrowserModule,

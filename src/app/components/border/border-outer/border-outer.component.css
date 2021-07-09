@@ -1,0 +1,153 @@
+
+/* Globals START */
+.icons-inline-tp {
+  display: inline-block;
+}
+.mat-divider {
+  background: #bbb9b9;
+}
+/* Globals END */
+
+.border-outer-container {
+  display: flex;
+  flex-direction: column !important;
+  width: 300px;
+  height: 886px;
+  background: #ffffff;
+  margin: 50px auto;
+  border: solid 1px #bdc3c7;
+  border-radius: 4px;
+  padding: 0;
+}
+.tc1 {
+  flex-basis: 46px;
+}
+.tc1 .mat-divider {
+  background: #bdc3c7;
+}
+.tc1-inner {
+  display: block;
+  position: relative;
+  height: 46px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* background: #c55757; */
+}
+/* Plus Circle */
+.tc1-inner .material-icons {
+  font-size: 28px;
+  cursor: pointer;
+  left: 40px;
+  top: 8px;
+  position: absolute;
+}
+/* Project */
+.tc1-inner .p-project-align {
+  font-size: 17px;
+  left: 75px;
+  top: 12px;
+  position: absolute;
+}
+/* Caret Down */
+.tc1-inner .p-project-align-two {
+  position: absolute;
+  font-size: 18px;
+  left: 136px;
+  top: 11px;
+}
+.tc2 {
+  flex-basis: 46px;
+  /* background: #f0e8e8; */
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.tc2-inner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background: #e9e6e6; */
+}
+/* "Project Tree" */
+.tc2-inner .p-project-tree-align-one {
+  font-size: 15px;
+  font-weight: bold;
+  left: 20px;
+  top: 12px;
+  position: absolute; }
+/* Plus Circle - am */
+.tc2-inner .p-project-tree-align-two {
+  font-family: 'Material Icons';
+  font-size: 18px;
+  left: 180px;
+  top: 12px;
+  position: absolute; }
+/* Download Cloud - am */
+.tc2-inner .p-project-tree-align-three {
+  font-family: 'Material Icons';
+  font-size: 20px;
+  left: 218px;
+  top: 12px;
+  position: absolute; }
+/* Double Left - fa */
+.tc2-inner .p-project-tree-align-four {
+  font-size: 18px;
+  left: 260px;
+  top: 13px;
+  position: absolute; }
+.tc3 {
+  flex-basis: 46px;
+}
+.tc3-inner {
+  display: block;
+ width: 100%;
+ height: 100%;
+}
+.tc3-inner .mat-chip.mat-standard-chip {
+  color: #3e3e3e;
+background: #d6d6d6;
+}
+.tc3 .mat-divider {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* DEFUNCT */
+/* DEFUNCT */
+/* DEFUNCT */
+
+/* .mat-list {
+  flex: 1;
+}
+
+.mat-icon {
+  flex: 1;
+}
+
+.mat-chip-list {
+  justify-content: center;
+  background-color: #758888 !important;
+}
+.mat-chip:nth-child(4) {
+  margin-left: 5px;
+}
+.mat-checkbox {
+  background: #000000;
+}
+
+.mat-tree {
+  background: #bbb9b9;
+}
+
+.mat-tree .mat-tree-node {
+  background: #bbb9b9;
+}
+
+.type-icon {
+  color: #757575;
+  margin-right: 5px;
+}
+ */

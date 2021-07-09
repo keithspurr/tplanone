@@ -1,18 +1,18 @@
 .tree-container {
   display: flex;
-  flex-direction: column !important;
+  flex-direction: row !important;
   max-width: 300px;
   max-height: 886px;
   background: #7ae4e4 !important;
   margin: 0 auto;
-  border: solid 10px #bdc3c7;
+  border: solid 1px #bdc3c7;
   border-radius: 4px;
   padding: 10px;
 }
 .tc1 {
   flex-basis: 50%;
 }
-.tc3 {
+.tc2 {
   flex-basis: 10%;
 }
 .tc3 {
